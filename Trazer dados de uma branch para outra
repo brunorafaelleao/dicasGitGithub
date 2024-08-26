@@ -21,6 +21,18 @@
    ```sh
    git merge master
    ```
+5. Se a merge for feita pelo VS code pode ser que venha uma mensagem:
+```sh
+Merge branch 'jordan' into Bruno
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+
+vá na aba do git no vs code e insira a mensagem do commit
+
+
 
 Se houver conflitos, você precisará resolvê-los manualmente. Após resolver os conflitos, adicione os arquivos resolvidos e finalize o merge:
 
