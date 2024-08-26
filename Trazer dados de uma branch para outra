@@ -1,0 +1,32 @@
+1. Para trazer as alterações da branch `master` para a sua branch atual, siga estes passos:
+
+1. **Certifique-se de estar na sua branch atual**:
+   ```sh
+   git checkout sua-branch
+   ```
+
+2. **Atualize a branch `master` com as últimas alterações do repositório remoto**:
+   ```sh
+   git fetch origin
+   git checkout master
+   git pull origin master
+   ```
+
+3. **Volte para a sua branch**:
+   ```sh
+   git checkout sua-branch
+   ```
+
+4. **Faça o merge das alterações da branch `master` para a sua branch**:
+   ```sh
+   git merge master
+   ```
+
+Se houver conflitos, você precisará resolvê-los manualmente. Após resolver os conflitos, adicione os arquivos resolvidos e finalize o merge:
+
+```sh
+git add .
+git commit
+```
+
+Isso deve trazer todas as alterações da branch `master` para a sua branch atual.
