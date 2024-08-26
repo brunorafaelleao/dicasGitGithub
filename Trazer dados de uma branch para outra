@@ -1,6 +1,6 @@
-1. Para trazer as alterações da branch `master` para a sua branch atual, siga estes passos:
+#1. Para trazer as alterações da branch `master` para a sua branch atual, siga estes passos:
 
-1. **Certifique-se de estar na sua branch atual**:
+**1. **Certifique-se de estar na sua branch atual**:
    ```sh
    git checkout sua-branch
    ```
